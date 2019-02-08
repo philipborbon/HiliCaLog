@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">HiliCaLog</string>
+    <string name="navigation_drawer_open">Buksan ang drawer ng nabigasyon</string>
+    <string name="navigation_drawer_close">Isara ang drawer ng nabigasyon</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="nav_label_dictionary">HiliCaLog</string>
+    <string name="nav_label_game">Hiligaynong Palaro</string>
+    <string name="nav_label_about">Tungkol Sa App</string>
+
+    <string name="label_search_placeholder">Salita</string>
+    <string name="label_button_search">Isalin</string>
+    <string name="label_ilocano">Ilocano :</string>
+    <string name="label_hiligaynon">Hiligaynon :</string>
+    <string name="label_version">Bersyon %1$s</string>
+    <string name="label_definition">Kahulugan</string>
+    <string name="label_tagalog_example">Tagalog na halimbawa</string>
+    <string name="label_hiligaynon_example">Hiligaynon na halimbawa</string>
+    <string name="label_ilocano_example">Ilocano na halimbawa</string>
+    <string name="label_hilicalog_game">Hiligaynong Palaro</string>
+    <string name="label_question">Tanong</string>
+    <string name="label_time">Oras</string>
+    <string name="label_score">Puntos</string>
+    <string name="label_high_score">Pinakamataas Na Puntos</string>
+    <string name="label_correct_count">Mga Tamang Sagot Na Nakuha</string>
+
+    <string name="message_preparing_dictionary">Kumagarga ng mga kahulugan…</string>
+    <string name="message_preparing_game">Kumagarga ng palaro…</string>
+    <string name="message_no_results">Walang nahanap na resulta.</string>
+    <string name="message_test_your_vocabulary">Subukan ang iyong bokabularyo.</string>
+
+    <string name="text_correct_count">%1$d ng %2$d</string>
+    <string name="text_unlock_score">Kailangan mo ng %1$d pang mga puntos para mabuksan ang %2$s. Subukang muli.</string>
+    <string name="text_play_next">Maglaro Sa %1$s</string>
+    <string name="text_recent_results">Mga resulta ng paghahanap:</string>
+
+    <string name="title_activity_recent_result">Mga Resulta Ng Paghahanap</string>
+    <string name="title_activity_game_choice">Pagpipilian Ng Laro</string>
+
+    <string name="button_text_next">Susunod</string>
+    <string name="button_text_resume">Ipagpatuloy</string>
+    <string name="button_text_start_again">Umulit</string>
+    <string name="button_text_exit">Tumigil</string>
+    <string name="button_text_exit_2">Itigil Na Ang Laro</string>
+
+    <string name="dialog_answer_correct_title">Tama ang iyong sagot</string>
+    <string name="dialog_answer_wrong_title">Mali ang iyong sagot</string>
+    <string name="dialog_answer_message">Iyong sagot: %1$s \n\nTamang sagot: %2$s </string>
+
+    <string name="dialog_times_up_title">Naubus na ang oras</string>
+    <string name="dialog_times_up_message">Tamang sagot: %1$s</string>
+
+    <string name="dialog_quiz_paused_title">Nakatigil sandali</string>
+    <string name="dialog_quiz_paused_message">Hiligaynong Palaro ay isang laro upang subukan ang iyong bokabularyo.</string>
+
+    <string name="text_presented">Inihanda ni:</string>
+    <string name="text_presented_by">Angelica P. Reamillo\nJesser A. Carillo Jr.</string>
+    <string name="text_presenter_organization">Sultan Kudarat State University\nIsulan Campus\n2018 - 2019</string>
+</resources>

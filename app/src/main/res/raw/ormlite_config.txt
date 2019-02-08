@@ -1,0 +1,112 @@
+#
+# generated on 2018/11/26 01:52:34
+#
+# --table-start--
+dataClass=com.hilicalog.dictionary.dao.DictionaryEntry
+tableName=dictionaryentry
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=tagalog
+# --field-end--
+# --field-start--
+fieldName=hiligaynon
+# --field-end--
+# --field-start--
+fieldName=ilocano
+# --field-end--
+# --field-start--
+fieldName=definition
+# --field-end--
+# --field-start--
+fieldName=soundFile
+# --field-end--
+# --field-start--
+fieldName=tagalogExample
+# --field-end--
+# --field-start--
+fieldName=hiligaynonExample
+# --field-end--
+# --field-start--
+fieldName=ilocanoExample
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.hilicalog.dictionary.dao.QuestionEntry
+tableName=questionentry
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=questionSet
+foreign=true
+foreignAutoRefresh=true
+maxForeignAutoRefreshLevel=2
+# --field-end--
+# --field-start--
+fieldName=question
+# --field-end--
+# --field-start--
+fieldName=answer
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.hilicalog.dictionary.dao.QuestionSet
+tableName=questionset
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=level
+# --field-end--
+# --field-start--
+fieldName=locked
+# --field-end--
+# --field-start--
+fieldName=pointsToProceed
+# --field-end--
+# --field-start--
+fieldName=highScore
+# --field-end--
+# --field-start--
+fieldName=answerSet
+# --field-end--
+# --field-start--
+fieldName=questionEntries
+foreignCollection=true
+foreignCollectionEager=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.hilicalog.dictionary.dao.RecentSearchResult
+tableName=recentsearchresult
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=entry
+foreign=true
+foreignAutoRefresh=true
+maxForeignAutoRefreshLevel=2
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
