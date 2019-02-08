@@ -23,7 +23,7 @@ import java.sql.SQLException;
 
 public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
     private static final String DATABASE_NAME = "com.hilicalog.dictionary.db";
-    private static final int DATABASE_VERSION = 9;
+    private static final int DATABASE_VERSION = 11;
 
     private RuntimeExceptionDao<DictionaryEntry, Integer> daoDictionaryEntry = null;
     private RuntimeExceptionDao<QuestionEntry, Integer> daoQuestionEntry = null;
