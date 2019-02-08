@@ -47,7 +47,6 @@
                         app:layout_alignSelf="center"/>
 
                     <TextView
-                        android:layout_centerVertical="true"
                         android:layout_toRightOf="@+id/hiligaynonLabel"
                         android:id="@+id/hiligaynon"
                         android:layout_marginLeft="@dimen/general_content_padding"
@@ -90,7 +89,6 @@
                     app:alignContent="stretch" >
 
                     <TextView
-                        android:layout_centerVertical="true"
                         android:id="@+id/ilocanoLabel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

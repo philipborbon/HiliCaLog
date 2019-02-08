@@ -10,8 +10,8 @@
 
     <string name="label_search_placeholder">Salita</string>
     <string name="label_button_search">Isalin</string>
-    <string name="label_ilocano">Ilocano :</string>
-    <string name="label_hiligaynon">Hiligaynon :</string>
+    <string name="label_ilocano">Ilocano:</string>
+    <string name="label_hiligaynon">Hiligaynon:</string>
     <string name="label_version">Bersyon %1$s</string>
     <string name="label_definition">Kahulugan</string>
     <string name="label_tagalog_example">Tagalog na halimbawa</string>
