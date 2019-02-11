@@ -11,16 +11,18 @@ public class ScoreUtil {
     };
 
     public static int getScore(int level, int seconds) throws Exception {
-        if ( seconds == 0 ){
-            return 0;
-        } else if ( seconds > 10 || seconds < 0 ){
-            throw new Exception("Seconds should be greater than or equal to zero and less than or equal to 10");
+        if ( seconds < 0 ){
+            throw new Exception("Seconds should be greater than or equal to zero");
         } else if ( level < 1 || level > 3 ){
             throw new Exception("Levels should be greater than or equal to 1 and less than or equal to 3");
         }
 
+        if ( seconds > 9 ) {
+            return 0;
+        }
+
         int levelIndex = level - 1;
-        int secondsIndex = seconds - 1;
+        int secondsIndex = seconds;
 
         return LEVEL_SCORES[levelIndex][secondsIndex];
     }
