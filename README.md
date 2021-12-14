@@ -1,1 +1,3 @@
 # HiliCaLog
+
+Hiligaynon - Ilocano dictionary.
